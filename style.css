@@ -5,7 +5,6 @@ Description: The 2013 theme for the Hodges-Burge website.
 Author: Liam Hodges
 Author URI: http://liamhodges.com/
 Version: 1.0
-Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style, custom-menu (optional)
 
 License:
 License URI:
@@ -103,6 +102,13 @@ time {
 	float: left;
 	margin-bottom: 10px;
 	height: 283px;
+	width: 100%;
+	}
+
+#header-alt {
+	float: left;
+	margin-bottom: 10px;
+	height: 225px;
 	width: 100%;
 	}
 
@@ -270,6 +276,13 @@ ul#excerpts {
 
 #post p {
 	margin: 20px 40px;
+}
+
+/* Sidebar ----------------------------- */
+
+#sidebar {
+	float: right;
+	width: 30%;
 }
 
 /* Comments ---------------------------- */
