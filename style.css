@@ -74,18 +74,18 @@ p {
 a {
 	text-decoration: none;
 	color: #d42606;
+	border-bottom: none;
 	}
 
 a:hover {
-	border-bottom: 1px solid #d42606;
+	color: #004EAF;
+	border-bottom: 1px dotted #d42606;
 	}
 
 time {
 	display: inline-block;
 	font-family: "proxima-nova", sans-serif;
-	font-size: 1.125em; /* 18px / 16px */
-	line-height: 1.33333333333333em; /* 24px / 18px */
-	/*color: #2956a8;*/
+	font-size: 1em; /* 16px */
 	margin-bottom: 10px;
 	}
 
@@ -281,8 +281,21 @@ ul#excerpts {
 /* Sidebar ----------------------------- */
 
 #sidebar {
-	float: right;
-	width: 30%;
+	float: left;
+	width: 29.9%;
+	margin: 55px 0 30px 40px;
+}
+
+#sidebar h2 {
+	margin-bottom: 30px;
+}
+
+#sidebar li {
+	font-family: "proxima-nova", sans-serif;
+	font-size: 1em; /* 16px */
+	line-height: 1.33333333333333em; /* 24px / 18px */
+	font-weight: 300;
+	margin-bottom: 5px;
 }
 
 /* Comments ---------------------------- */
