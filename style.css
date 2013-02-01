@@ -14,7 +14,7 @@ License URI:
 @import url('css/reset.css');
 
 body {
-	background: #ffffff url('http://localhost:8888/hodgesburge/wp-content/themes/hodges-burge/img/body-background.jpg') repeat;
+	background: #ffffff url('img/body-background.jpg') repeat;
 	}
 
 img {
@@ -113,7 +113,7 @@ time {
 	}
 
 #logo-banner {
-	background-image: url('http://localhost:8888/hodgesburge/wp-content/themes/hodges-burge/img/logo-banner.png');
+	background-image: url('img/logo-banner.png');
 	height: 103px;
 	width: 682px;
 	margin: 64px auto 0 auto;
@@ -131,7 +131,7 @@ time {
 	}
 
 	#image-1 {
-		-webkit-transform: rotate(2deg);
+		background: #fff url('img/image-1.jpg') no-repeat left top;		height: 210px;		width: 210px;		-webkit-transform: rotate(2deg);
 		-moz-transform: rotate(2deg);
 		-ms-transform: rotate(2deg);
 		transform: rotate(2deg);
@@ -142,11 +142,10 @@ time {
 		-webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);
 		-moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);
 		box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);
-		background-color: #fff;
 		}
 	
 	#image-2 {
-		-webkit-transform: rotate(-4deg);
+		background: #fff url('img/image-2.jpg') no-repeat left top;		height: 220px;		width: 220px;		-webkit-transform: rotate(-4deg);
 		-moz-transform: rotate(-4deg);
 		-ms-transform: rotate(-4deg);
 		transform: rotate(-4deg);	
@@ -161,7 +160,7 @@ time {
 		}
 	
 	#image-3 {
-		-webkit-transform: rotate(1deg);
+		background: #fff url('img/image-3.jpg') no-repeat left top;		height: 240px;		width: 240px;		-webkit-transform: rotate(1deg);
 		-moz-transform: rotate(1deg);
 		-ms-transform: rotate(1deg);
 		transform: rotate(1deg);
@@ -172,11 +171,10 @@ time {
 		-webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);
 		-moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);
 		box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);
-		background-color: #fff;
 		}
 	
 	#image-4 {
-		-webkit-transform: rotate(-5deg);
+		background: #fff url('img/image-4.jpg') no-repeat left top;		height: 220px;		width: 220px;		-webkit-transform: rotate(-5deg);
 		-moz-transform: rotate(-5deg);
 		-ms-transform: rotate(-5deg);
 		transform: rotate(-5deg);
@@ -187,7 +185,6 @@ time {
 		-webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);
 		-moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);
 		box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);
-		background-color: #fff;	
 		}
 /* --------------------------------------------- */
 
@@ -208,7 +205,7 @@ time {
 
 #main-background {
 	float: left;
-	background: #ffffff url('http://localhost:8888/hodgesburge/wp-content/themes/hodges-burge/img/main-background-tile.jpg') repeat;
+	background: #ffffff url('img/main-background-tile.jpg') repeat;
 	width: 100%;
 	-webkit-box-shadow: 0px 0px 100px 50px rgba(0, 0, 0, .5);
 	box-shadow: 0px 0px 100px 50px rgba(0, 0, 0, .5);
@@ -368,7 +365,7 @@ div.comment-meta.commentmetadata {
 #footer {
 	clear: both;
 	height: 410px;
-	background: #ffffff url('http://localhost:8888/hodgesburge/wp-content/themes/hodges-burge/img/body-background.jpg') repeat;
+	background: #ffffff url('img/body-background.jpg') repeat;
 	}
 
 #footer-wrapper {
@@ -385,7 +382,7 @@ div.comment-meta.commentmetadata {
 	float: left;
 	width: 184px;
 	height: 184px;
-	background: url('http://localhost:8888/hodgesburge/wp-content/themes/hodges-burge/img/footer-hb-seal.png') no-repeat;
+	background: url('img/footer-hb-seal.png') no-repeat;
 	margin: 112px 70px 0 40px;
 	}
 

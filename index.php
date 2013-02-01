@@ -4,21 +4,10 @@
 		<div id="container-main">
 			<div id="header-images">
 		
-			<div id="image-1">			
-				<a href="http://instagram.com/p/T-XIjfRYy9/"><img class="instagram-image" src="http://distilleryimage9.s3.amazonaws.com/0049343a54b511e2a74822000a9e2993_7.jpg" width="210" height="210"></a>			
-			</div>
-			
-			<div id="image-2">			
-				<a href="http://instagram.com/p/SR_qG4RY7Q/"><img class="instagram-image" src="http://distilleryimage0.s3.amazonaws.com/d81e960e33a211e280a722000a9e28dc_7.jpg" width="220" height="220"></a>			
-			</div>
-			
-			<div id="image-3">			
-				<a href="http://instagram.com/p/TRyroyAoVY/"><img class="instagram-image" src="http://distilleryimage4.s3.amazonaws.com/01169df0471b11e2aaa222000a1fb843_7.jpg" width="240" height="240"></a>			
-			</div>
-			
-			<div id="image-4">			
-					<a href="http://instagram.com/p/Twwm-lAoZs/"><img class="instagram-image" src="http://distilleryimage4.s3.amazonaws.com/5954b458508e11e2ae2622000a1fb7e1_7.jpg" width="220" height="220"></a>			
-			</div>
+			<div id="image-1"></div>
+			<div id="image-2"></div>
+			<div id="image-3"></div>
+			<div id="image-4"></div>
 		
 		</div> <!--header-images div ends-->
 		
