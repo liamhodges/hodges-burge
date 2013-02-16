@@ -18,7 +18,8 @@ body {
 	}
 
 img {
-	width: ;
+	max-width: 100%;
+	height: auto;
 	}
 
 /* Removes TypeKit FOUT ------------------------ */
@@ -251,6 +252,7 @@ ul#excerpts {
 	}
 
 #post img {
+	max-width: 599px;
 	border: 10px solid #fff;
 	-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, .15);
 	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, .15);
