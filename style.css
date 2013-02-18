@@ -257,7 +257,8 @@ ul#excerpts {
 	-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, .15);
 	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, .15);
 	margin: 30px -40px;
-	display: block;
+	display: inline;
+	text-align: center;
 }
 
 #post h2 {
@@ -280,21 +281,30 @@ ul#excerpts {
 /* Sidebar ----------------------------- */
 
 #sidebar {
-	float: left;
+	float: right;
 	width: 29.9%;
-	margin: 55px 0 30px 40px;
+	margin: 55px 0 30px 0;
+	font-family: "proxima-nova", sans-serif;
 }
 
 #sidebar h2 {
 	margin-bottom: 30px;
 }
 
+#sidebar ul {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #333;
+}
+
 #sidebar li {
-	font-family: "proxima-nova", sans-serif;
-	font-size: 1em; /* 16px */
-	line-height: 1.33333333333333em; /* 24px / 18px */
+	margin-bottom: 10px;
+}
+
+#sidebar a {
+	font-size: 1.2em;
 	font-weight: 300;
-	margin-bottom: 5px;
+	line-height: 1.33333333333333em; /* 24px / 18px */
 }
 
 /* Comments ---------------------------- */
@@ -302,11 +312,6 @@ ul#excerpts {
 #post ol.commentlist {
 	float: left;
 	font-family: "proxima-nova", sans-serif;
-}
-
-#post ol.commentlist p {
-	margin-left: 0;
-	margin-right: 0;
 }
 
 #post ol.commentlist img {
@@ -317,6 +322,11 @@ ul#excerpts {
 	background-color: none;
 }
 
+#post ol.commentlist img.avatar {
+	display: none;
+	visibility: hidden;
+}
+
 #post ol.commentlist p img {
 	margin: 0 0 0 0;
 }
@@ -324,22 +334,31 @@ ul#excerpts {
 .comment-body {
 	float: left;
 	width: 100%;
-	padding: 30px 0 10px 0;
+	padding: 20px 0 20px 0;
 	border-top: 1px solid #000;
 }
 
-div.comment-meta.commentmetadata {
-	margin: 10px 0;	
+.comment-author.vcard, .comment-meta.commentmetadata, #post ol.commentlist p, .reply {
+	margin-left: 40px;
+	margin-right: 40px;	
 }
 
-
+.comment-meta.commentmetadata {
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
 
 /* Comment form ------------------------ */
 
 #respond {
 	float: left;
-	margin-top: 40px;
+	margin-top: 20px;
+	padding-top: 20px;
+	width: 100%;
 }
+
+
+
 #commentform #author, #email, #url {
 	width: 40%;
 	height: 30px;
