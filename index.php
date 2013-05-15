@@ -4,10 +4,10 @@
 		<div id="container-main">
 			<div id="header-images">
 		
-			<div id="image-1" class="single-header-image"></div>
-			<div id="image-2" class="single-header-image"></div>
-			<div id="image-3" class="single-header-image"></div>
-			<div id="image-4" class="single-header-image"></div>
+			<div id="image-1"></div>
+			<div id="image-2"></div>
+			<div id="image-3"></div>
+			<div id="image-4"></div>
 		
 		</div> <!--header-images div ends-->
 		
