@@ -1,3 +1,6 @@
+/* @override 
+	http://localhost:8888/hodgesburge/wp-content/themes/hodges-burge/style.css */
+
 /*
 Theme Name: Hodges-Burge
 Theme URI: http://hodges-burge.com/
@@ -12,48 +15,43 @@ License URI:
 */
 
 @import url('css/reset.css');
-
+* {	-webkit-box-sizing: border-box;	-moz-box-sizing: border-box;	box-sizing: border-box;}
 body {
 	background: #ffffff url('img/body-background.jpg') repeat;
-	}
+}
 
 img {
-	width: 100%;
+	max-width: 100%;
 	height: auto;
-	}
+}
 
 /* Removes TypeKit FOUT ------------------------ */
 
 .wf-loading h1 {
     visibility: hidden;
-  }
+}
 .wf-loading h2 {
     visibility: hidden;
-  }
+}
 .wf-loading h3 {
     visibility: hidden;
-  }
+}
 .wf-loading p {
     visibility: hidden;
-  }
+}
 .wf-loading time {
     visibility: hidden;
-  }
+}
   
 /* --------------------------------------------- */
   
 h1 {
-<<<<<<< HEAD
 <<<<<<< HEAD
 	font-family: "museo-slab", serif;}
 =======
 	font-family: "museo-slab",s erif;
 	}
 >>>>>>> parent of bd1e7b6... Responsive image update
-=======
-	font-family: "museo-slab", serif;
-	}
->>>>>>> parent of 76ab25d... Style update
 
 	
 h2 {
@@ -62,7 +60,7 @@ h2 {
 	font-weight: 500;
 	line-height: 1.25em; /* 30px / 24px */
 	margin-bottom: 10px;
-	}
+}
 
 h3 {
 	font-family: "museo-slab", serif;
@@ -71,7 +69,7 @@ h3 {
 	line-height: 1.25em; /* 30px / 24px */
 	margin-bottom: 25px;
 	color: #fff;
-	}
+}
 
 p {
 	font-family: "proxima-nova", sans-serif;
@@ -79,31 +77,30 @@ p {
 	line-height: 1.33333333333333em; /* 24px / 18px */
 	font-weight: 300;
 	margin-bottom: 20px;
-	}
+}
 
 a {
 	text-decoration: none;
 	color: #d42606;
 	border-bottom: none;
-	}
+}
 
 a:hover {
 	color: #004EAF;
 	border-bottom: 1px dotted #d42606;
-	}
+}
 
 time {
 	display: inline-block;
 	font-family: "proxima-nova", sans-serif;
 	font-size: 1em; /* 16px */
 	margin-bottom: 10px;
-	}
+}
 
 /* Header ------------------------ */
 
 #container-header {
 	margin: 0 auto;
-<<<<<<< HEAD
 <<<<<<< HEAD
 	float: left;	min-width: 100%;
 	padding: 0 50px;
@@ -114,33 +111,25 @@ time {
 	padding: 0 10px;
 	}
 >>>>>>> parent of bd1e7b6... Responsive image update
-=======
-	width: 100%;
-	/*min-width: 940px; /* Remove this when making responsive *!/*/
-	padding: 0 10px;
-	}
->>>>>>> parent of 76ab25d... Style update
 
 #header {
 	float: left;
 	margin-bottom: 10px;
-	height: 283px;
+	max-height: 283px;
 	width: 100%;
-	}
-
+}
 #header-alt {
 	float: left;
 	margin-bottom: 10px;
 	height: 225px;
 	width: 100%;
-	}
+}
 
 #logo-banner {
 	background-image: url('img/logo-banner.png');
 	height: 103px;
 <<<<<<< HEAD
 	max-width: 682px;
-<<<<<<< HEAD
 	margin: 64px auto 0 auto;	-webkit-transition: all .1s ease-in-out;	transition: all .1s ease-in-out;
 }#logo-banner:hover {	position: relative;	opacity: 0.8;	top: 5px;	-webkit-transition: all .1s ease-in-out;	transition: all .1s ease-in-out;}
 =======
@@ -148,17 +137,12 @@ time {
 	margin: 64px auto 0 auto;
 	}
 >>>>>>> parent of bd1e7b6... Responsive image update
-=======
-	margin: 64px auto 0 auto;
-	}
->>>>>>> parent of 76ab25d... Style update
 
 /* Main body ------------------------ */
 
 /* Displays the 4 instagram images at the top of the index page */
 
 #header-images {
-<<<<<<< HEAD
 <<<<<<< HEAD
 	position: relative;	float: left;	top: -130px;
 	width: 100%;	padding: 0 40px;}
@@ -194,11 +178,6 @@ time {
 	top: -130px;
 	float: left;
 	min-width: 940px;
-=======
-	position: relative;
-	top: -130px;
-	width: 100%;
->>>>>>> parent of 76ab25d... Style update
 	}
 
 	#image-1 {
@@ -227,10 +206,7 @@ time {
 		-webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);
 		-moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);
 		box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);
-<<<<<<< HEAD
 		background-color: #fff;
-=======
->>>>>>> parent of 76ab25d... Style update
 		}
 	
 	#image-3 {
@@ -261,10 +237,7 @@ time {
 		box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);
 		}
 /* --------------------------------------------- */
-<<<<<<< HEAD
 >>>>>>> parent of bd1e7b6... Responsive image update
-=======
->>>>>>> parent of 76ab25d... Style update
 
 #banner-text {
 	float: left;
@@ -272,43 +245,43 @@ time {
 	width: 100%;
 	margin-top: -80px;
 	margin-bottom: 50px;
-	}
+}
 
 #banner-text h2 {
 	font-size: 3.4375em; /* 55px / 16px */
 	line-height: 1.36363636363636em; /* 75px / 55px */
 	font-weight: 300;
 	margin-bottom: 3px;
-	}
+}
 
 #main-background {
 	float: left;
-	background: #ffffff url('img/main-background-tile.jpg') repeat;
+	position: relative;	top: 120px;	background: #ffffff url('img/main-background-tile.jpg') repeat;
 	width: 100%;
 	-webkit-box-shadow: 0px 0px 100px 50px rgba(0, 0, 0, .5);
 	box-shadow: 0px 0px 100px 50px rgba(0, 0, 0, .5);
-	}
+}
 	
 #container-main {
 	margin: 0 auto;
 	max-width: 940px;
 	min-width: 940px; /* Remove this when making responsive */
 	padding: 0 10px;
-	}
+}
 
 #main {
 	float: left;
 	margin: 0 0 90px 0;
-	}
+}
 
 ul#excerpts {
 	float: left;
-	}
+}
 
 #excerpts li {
 	display: inline-block;
 	vertical-align: top;
-	width: 27.3%;
+	width: 31.6%;
 	padding: 20px 20px 15px 20px;
 	background-color: #fff;
 	margin: 0 20px 20px 0;
@@ -318,7 +291,7 @@ ul#excerpts {
 
 #excerpts li:nth-child(3n+3) {
 	margin: 0 0 20px 0;
-	}
+}
 
 /* Blog post --------------------- */
 
@@ -326,16 +299,12 @@ ul#excerpts {
 	float: left;
 	max-width: 65.95%;
 	margin: 50px 0 30px 0;
-	}
+}
 
 #post img {
-	max-width: 599px;
 	border: 10px solid #fff;
 	-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, .15);
 	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, .15);
-	margin: 30px -40px;
-	display: inline;
-	text-align: center;
 }
 
 #post h2 {
@@ -464,30 +433,30 @@ ul#excerpts {
 	clear: both;
 	height: 410px;
 	background: #ffffff url('img/body-background.jpg') repeat;
-	}
+}
 
 #footer-wrapper {
 	margin: 0 auto;
 	max-width: 940px;
 	padding: 0 10px;
-	}
+}
 
 #footer p {
 	color: #fff;
-	}
+}
 
 #seal {
 	float: left;
 	width: 184px;
 	height: 184px;
 	background: url('img/footer-hb-seal.png') no-repeat;
-	margin: 112px 70px 0 40px;
-	}
+	margin: 112px 60px 0 40px;
+}
 
 #about-us {
 	float: right;
 	width: 64%;
 	margin: 72px 40px 0 0;
-	}
+}
 	
 /* --------------------------------------------- */
