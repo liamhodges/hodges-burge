@@ -1,3 +1,6 @@
+/* @override 
+	http://localhost:8888/hodgesburge/wp-content/themes/hodges-burge/style.css */
+
 /*
 Theme Name: Hodges-Burge
 Theme URI: http://hodges-burge.com/
@@ -22,23 +25,13 @@ img {
 	height: auto;
 }
 
-/* Removes TypeKit FOUT ------------------------ */
+/* Removes TypeKit FOUT--------------------------------------------- */
 
-.wf-loading h1 {
-    visibility: hidden;
-}
-.wf-loading h2 {
-    visibility: hidden;
-}
-.wf-loading h3 {
-    visibility: hidden;
-}
-.wf-loading p {
-    visibility: hidden;
-}
-.wf-loading time {
-    visibility: hidden;
-}
+.wf-loading h1 { visibility: hidden; }
+.wf-loading h2 { visibility: hidden; }
+.wf-loading h3 { visibility: hidden; }
+.wf-loading p { visibility: hidden; }
+.wf-loading time { visibility: hidden; }
   
 /* --------------------------------------------- */
   
@@ -89,7 +82,7 @@ time {
 	margin-bottom: 10px;
 }
 
-/* Header ------------------------ */
+/* Header--------------------------------------------- */
 
 #container-header {
 	float: left;	margin: 0 auto;
@@ -98,7 +91,7 @@ time {
 
 #header {
 	float: left;
-	margin-bottom: 10px;
+	margin-bottom: 10px;	height: 300px;
 	width: 100%;
 }
 #header-alt {
@@ -113,9 +106,9 @@ time {
 	height: 103px;
 	max-width: 682px;
 	margin: 64px auto 0 auto;	-webkit-transition: all .1s ease-in-out;	transition: all .1s ease-in-out;
-}#logo-banner:hover {	position: relative;	opacity: 0.8;	top: 5px;	-webkit-transition: all .1s ease-in-out;	transition: all .1s ease-in-out;}
+}/*#logo-banner:hover {	position: relative;	opacity: 0.8;	top: 5px;	-webkit-transition: all .1s ease-in-out;	transition: all .1s ease-in-out;}*/
 
-/* Main body ------------------------ */
+/* Main body--------------------------------------------- */
 
 /* Displays the 4 instagram images at the top of the index page */
 
@@ -124,7 +117,7 @@ time {
 	width: 100%;	padding: 0 40px;}
 .single-header-image {	float: left;	border: 10px solid #fff;	-webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);	-moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);}
 #image-1 {
-	background: #fff url('img/image-1.jpg') no-repeat left top;	height: 210px;	width: 210px;	margin-left: 1.6%;	margin-top: 30px;	-webkit-transform: rotate(2deg);
+	background: url('img/image-1.jpg') no-repeat left top;	height: 210px;	width: 210px;	margin-left: 13px;	margin-top: 30px;	-webkit-transform: rotate(2deg);
 	-moz-transform: rotate(2deg);
 	-ms-transform: rotate(2deg);
 	transform: rotate(2deg);
@@ -132,18 +125,18 @@ time {
 
 #image-2 {
 	background: #fff url('img/image-2.jpg') no-repeat left top;	height: 230px;	width: 230px;
-	margin-left: -3.1%;
+	margin-left: -27px;
 	margin-top: 50px;	-webkit-transform: rotate(-4deg);	-moz-transform: rotate(-4deg);	-ms-transform: rotate(-4deg);	transform: rotate(-4deg);	
 }
 
 #image-3 {
 	background: #fff url('img/image-3.jpg') no-repeat left top;	height: 240px;	width: 240px;
-	margin-left: -3.1%;
+	margin-left: -27px;
 	margin-top: 35px;	-webkit-transform: rotate(1deg);	-moz-transform: rotate(1deg);	-ms-transform: rotate(1deg);	transform: rotate(1deg);
 }
 
 #image-4 {
-	background: #fff url('img/image-4.jpg') no-repeat left top;	height: 220px;	width: 220px;	margin-left: -3.1%;	margin-top: 50px;	-webkit-transform: rotate(-5deg);
+	background: #fff url('img/image-4.jpg') no-repeat left top;	height: 220px;	width: 220px;	margin-left: -27px;	margin-top: 50px;	-webkit-transform: rotate(-5deg);
 	-moz-transform: rotate(-5deg);
 	-ms-transform: rotate(-5deg);
 	transform: rotate(-5deg);
@@ -167,8 +160,8 @@ time {
 
 #main-background {
 	float: left;
-	position: relative;	top: 120px;	background: #ffffff url('img/main-background-tile.jpg') repeat;
-	width: 100%;	margin-bottom: 120px;
+	position: relative;	background: #ffffff url('img/main-background-tile.jpg') repeat;
+	width: 100%;
 	-webkit-box-shadow: 0px 0px 100px 50px rgba(0, 0, 0, .5);
 	box-shadow: 0px 0px 100px 50px rgba(0, 0, 0, .5);
 }
@@ -186,13 +179,13 @@ time {
 }
 
 ul#excerpts {
-	float: left;
+	float: left;	margin: 0 20px;
 }
 
 #excerpts li {
 	display: inline-block;
 	vertical-align: top;
-	width: 31.6%;
+	width: 31.4%;
 	padding: 20px 20px 15px 20px;
 	background-color: #fff;
 	margin: 0 20px 20px 0;
@@ -204,7 +197,7 @@ ul#excerpts {
 	margin: 0 0 20px 0;
 }
 
-/* Blog post --------------------- */
+/* Blog post--------------------------------------------- */
 
 #post {
 	float: left;
@@ -235,7 +228,7 @@ ul#excerpts {
 	margin: 20px 40px;
 }
 
-/* Sidebar ----------------------------- */
+/* Sidebar--------------------------------------------- */
 
 #sidebar {
 	float: right;
@@ -264,7 +257,7 @@ ul#excerpts {
 	line-height: 1.33333333333333em; /* 24px / 18px */
 }
 
-/* Comments ---------------------------- */
+/* Comments--------------------------------------------- */
 
 #post ol.commentlist {
 	float: left;
@@ -305,7 +298,7 @@ ul#excerpts {
 	margin-bottom: 10px;	
 }
 
-/* Comment form ------------------------ */
+/* Comment form--------------------------------------------- */
 
 #respond {
 	float: left;
@@ -313,8 +306,6 @@ ul#excerpts {
 	padding-top: 20px;
 	width: 100%;
 }
-
-
 
 #commentform #author, #email, #url {
 	width: 40%;
@@ -338,7 +329,7 @@ ul#excerpts {
 	font-size: 95%;
 }
 
-/* Footer ------------------------ */
+/* Footer--------------------------------------------- */
 
 #footer {
 	clear: both;
@@ -370,4 +361,4 @@ ul#excerpts {
 	margin: 72px 40px 0 0;
 }
 	
-/* --------------------------------------------- */
+/* Media Queries--------------------------------------------- *//*@media screen and (max-width: 935px) {		#image-1 { margin-left: 0; }	#image-2 { margin-left: -30px; }	#image-3 { margin-left: -30px; }	#image-4 { margin-left: -30px; }}*//*@media screen and (max-width: 935px) {		#header-images { padding: 0 80px; }	#image-2 { margin-left: -70px; }	#image-3 { margin-left: -70px; }	#image-4 { margin-left: -70px; }}@media screen and (max-width: 890px) {		#header-images { padding: 0 120px; }	#image-2 { margin-left: -100px; }	#image-3 { margin-left: -100px; }	#image-4 { margin-left: -100px; }}*/

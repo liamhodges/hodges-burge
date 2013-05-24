@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+	<div id="header">			<h1><a href="/"><div id="logo-banner"></div> <!--logo-banner div ends--></a></h1>	</div> <!--header div ends--></div> <!--container-header div ends-->
 <div id="main-background">
 		<div id="container-main">
 			<div id="header-images">

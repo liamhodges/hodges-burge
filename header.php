@@ -2,7 +2,7 @@
 
 <head>
 	<link rel="stylesheet" href="wp-content/themes/hodges-burge/style.css"/>
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<!--Typekit-->
 	<script type="text/javascript">
 	  (function() {
@@ -20,7 +20,4 @@
 <body>
 	<div id="wrapper">
 		<div id="container-header">
-			<div id="header">	
-				<h1><a href="/"><div id="logo-banner"></div> <!--logo-banner div ends--></a></h1>
-			</div> <!--header div ends-->
-		</div> <!--container-header div ends-->
+
