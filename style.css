@@ -1,6 +1,3 @@
-/* @override 
-	http://localhost:8888/hodgesburge/wp-content/themes/hodges-burge/style.css */
-
 /*
 Theme Name: Hodges-Burge
 Theme URI: http://hodges-burge.com/
@@ -114,36 +111,35 @@ time {
 
 #header-images {
 	position: relative;	float: left;	top: -130px;
-	width: 100%;	padding: 0 40px;}
+	width: 100%;/*	padding: 0 4%;*/	margin-left: auto;	margin-right: auto;}
 .single-header-image {	float: left;	border: 10px solid #fff;	-webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);	-moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);}
 #image-1 {
-	background: url('img/image-1.jpg') no-repeat left top;	height: 210px;	width: 210px;	margin-left: 13px;	margin-top: 30px;	-webkit-transform: rotate(2deg);
+	background: url('img/image-1.jpg') no-repeat left top;	height: 210px;	width: 210px;	margin-left: 0.8125em;	margin-top: 1.875em;	-webkit-transform: rotate(2deg);
 	-moz-transform: rotate(2deg);
 	-ms-transform: rotate(2deg);
-	transform: rotate(2deg);
+	transform: rotate(2deg);	-webkit-background-clip:padding-box; /* IOS fix */    background-clip:padding-box; /* IOS fix */
 }
 
 #image-2 {
 	background: #fff url('img/image-2.jpg') no-repeat left top;	height: 230px;	width: 230px;
-	margin-left: -27px;
-	margin-top: 50px;	-webkit-transform: rotate(-4deg);	-moz-transform: rotate(-4deg);	-ms-transform: rotate(-4deg);	transform: rotate(-4deg);	
+	margin-left: -1.6875em;
+	margin-top: 2.3em;	-webkit-transform: rotate(-4deg);	-moz-transform: rotate(-4deg);	-ms-transform: rotate(-4deg);	transform: rotate(-4deg);	-webkit-background-clip:padding-box; /* IOS fix */	background-clip:padding-box; /* IOS fix */
 }
 
 #image-3 {
 	background: #fff url('img/image-3.jpg') no-repeat left top;	height: 240px;	width: 240px;
-	margin-left: -27px;
-	margin-top: 35px;	-webkit-transform: rotate(1deg);	-moz-transform: rotate(1deg);	-ms-transform: rotate(1deg);	transform: rotate(1deg);
+	margin-left: -1.6875em;
+	margin-top: 2.2em;	-webkit-transform: rotate(1deg);	-moz-transform: rotate(1deg);	-ms-transform: rotate(1deg);	transform: rotate(1deg);	-webkit-background-clip:padding-box; /* IOS fix */	background-clip:padding-box; /* IOS fix */
 }
 
 #image-4 {
-	background: #fff url('img/image-4.jpg') no-repeat left top;	height: 220px;	width: 220px;	margin-left: -27px;	margin-top: 50px;	-webkit-transform: rotate(-5deg);
+	background: #fff url('img/image-4.jpg') no-repeat left top;	height: 220px;	width: 220px;	margin-left: -1.6875em;	margin-top: 3.125em;	-webkit-transform: rotate(-5deg);
 	-moz-transform: rotate(-5deg);
 	-ms-transform: rotate(-5deg);
-	transform: rotate(-5deg);
+	transform: rotate(-5deg);	-webkit-background-clip:padding-box; /* IOS fix */	background-clip:padding-box; /* IOS fix */
 }
 /* --------------------------------------------- */
-
-#banner-text {
+#banner-text {
 	float: left;
 	text-align: center;
 	width: 100%;
@@ -169,7 +165,6 @@ time {
 #container-main {
 	margin: 0 auto;
 	max-width: 940px;
-	/*min-width: 940px; /* Remove this when making responsive *!/*/
 	padding: 0 10px;
 }
 
@@ -361,4 +356,4 @@ ul#excerpts {
 	margin: 72px 40px 0 0;
 }
 	
-/* Media Queries--------------------------------------------- *//*@media screen and (max-width: 935px) {		#image-1 { margin-left: 0; }	#image-2 { margin-left: -30px; }	#image-3 { margin-left: -30px; }	#image-4 { margin-left: -30px; }}*//*@media screen and (max-width: 935px) {		#header-images { padding: 0 80px; }	#image-2 { margin-left: -70px; }	#image-3 { margin-left: -70px; }	#image-4 { margin-left: -70px; }}@media screen and (max-width: 890px) {		#header-images { padding: 0 120px; }	#image-2 { margin-left: -100px; }	#image-3 { margin-left: -100px; }	#image-4 { margin-left: -100px; }}*/
+/* Media Queries--------------------------------------------- */@media all and (max-width: 935px) and (min-width: 768px) {	/*	#header-images { padding: 0 5%; }*/	#image-1 { margin-left: 0.5em; margin-top: 1.3em; }	#image-2 { margin-left: -5em; }	#image-3 { margin-left: -5em; margin-top: 1em; }	#image-4 { margin-left: -5em;margin-top: 3em; }	}

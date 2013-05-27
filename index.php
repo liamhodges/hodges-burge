@@ -12,9 +12,7 @@
 		</div> <!--header-images div ends-->
 		
 		<div id="banner-text">
-			<h2>Pull up a chair, take a load off.</h2>
-			<h2>Let’s get suburban.</h2>	
-		</div>
+			<h2>Pull up a chair, take a load off.</h2>			<h2>Let’s get suburban.</h2>		</div>
 		
 		<div id="main">
 		

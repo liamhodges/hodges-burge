@@ -14,7 +14,6 @@
 	  })();
 	</script>
 	<!--Typekit ends-->
-	
 </head>
 
 <body>
