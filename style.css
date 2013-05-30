@@ -1,3 +1,6 @@
+/* @override 
+	http://localhost:8888/wordpress/wp-content/themes/hodges-burge/style.css */
+
 /*
 Theme Name: Hodges-Burge
 Theme URI: http://hodges-burge.com/
@@ -110,8 +113,8 @@ time {
 /* Displays the 4 instagram images at the top of the index page */
 
 #header-images {
-	position: relative;	float: left;	top: -130px;
-	width: 100%;/*	padding: 0 4%;*/	margin-left: auto;	margin-right: auto;}
+	position: relative;/*	float: left;*/	top: -130px;
+	width: 100%;	padding: 0 4%;	/*margin-left: auto;	margin-right: auto;*/}
 .single-header-image {	float: left;	border: 10px solid #fff;	-webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);	-moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);}
 #image-1 {
 	background: url('img/image-1.jpg') no-repeat left top;	height: 210px;	width: 210px;	margin-left: 0.8125em;	margin-top: 1.875em;	-webkit-transform: rotate(2deg);
@@ -356,4 +359,7 @@ ul#excerpts {
 	margin: 72px 40px 0 0;
 }
 	
-/* Media Queries--------------------------------------------- */@media all and (max-width: 935px) and (min-width: 768px) {	/*	#header-images { padding: 0 5%; }*/	#image-1 { margin-left: 0.5em; margin-top: 1.3em; }	#image-2 { margin-left: -5em; }	#image-3 { margin-left: -5em; margin-top: 1em; }	#image-4 { margin-left: -5em;margin-top: 3em; }	}
+/* Media Queries--------------------------------------------- */@media all and (max-width: 935px) and (min-width: 768px) {	/*	#header-images { padding: 0 5%; }*/	#image-1 { margin-left: 0.5em; margin-top: 1.3em; }	#image-2 { margin-left: -5em; }	#image-3 { margin-left: -5em; margin-top: 1em; }	#image-4 { margin-left: -5em;margin-top: 3em; }	
+	#excerpts li {
+		width: 48.2%;
+	}	}
