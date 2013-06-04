@@ -1,6 +1,3 @@
-/* @override 
-	http://localhost:8888/wordpress/wp-content/themes/hodges-burge/style.css */
-
 /*
 Theme Name: Hodges-Burge
 Theme URI: http://hodges-burge.com/
@@ -90,13 +87,12 @@ time {
 }
 
 #header {
-	float: left;
-	margin-bottom: 10px;	height: 300px;
+	float: left;	height: 280px;
 	width: 100%;
 }
 #header-alt {
 	float: left;
-	height: 225px;
+	height: 190px;
 	width: 100%;
 }
 
@@ -105,7 +101,7 @@ time {
 	background-size: 100%;
 	height: 103px;
 	max-width: 682px;
-	margin: 64px auto 0 auto;	-webkit-transition: all .1s ease-in-out;	transition: all .1s ease-in-out;
+	margin: 40px auto 0 auto;
 }/*#logo-banner:hover {	position: relative;	opacity: 0.8;	top: 5px;	-webkit-transition: all .1s ease-in-out;	transition: all .1s ease-in-out;}*/
 
 /* Main body--------------------------------------------- */
@@ -113,11 +109,10 @@ time {
 /* Displays the 4 instagram images at the top of the index page */
 
 #header-images {
-	position: relative;/*	float: left;*/	top: -130px;
-	width: 100%;	padding: 0 4%;	/*margin-left: auto;	margin-right: auto;*/}
+	position: relative;	display:block;	top: -130px;	width: 820px;	margin: 0 auto;}
 .single-header-image {	float: left;	border: 10px solid #fff;	-webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);	-moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);}
 #image-1 {
-	background: url('img/image-1.jpg') no-repeat left top;	height: 210px;	width: 210px;	margin-left: 0.8125em;	margin-top: 1.875em;	-webkit-transform: rotate(2deg);
+	background: url('img/image-1.jpg') no-repeat left top;	height: 210px;	width: 210px;	margin-top: 1.875em;	-webkit-transform: rotate(2deg);
 	-moz-transform: rotate(2deg);
 	-ms-transform: rotate(2deg);
 	transform: rotate(2deg);	-webkit-background-clip:padding-box; /* IOS fix */    background-clip:padding-box; /* IOS fix */
@@ -199,7 +194,7 @@ ul#excerpts {
 
 #post {
 	float: left;
-	width: 65.95%;
+	width: 65%;
 	margin: 50px 0 30px 0;
 }
 
@@ -230,34 +225,33 @@ ul#excerpts {
 
 #sidebar {
 	float: right;
-	width: 29.9%;
-	margin: 55px 0 30px 0;
-	font-family: "proxima-nova", sans-serif;
+	width: 30%;
+	margin: 175px 40px 30px 0;	padding: 20px;
+	font-family: "proxima-nova", sans-serif;	background-color: #fff;	-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, .15);	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, .15);
 }
 
 #sidebar h2 {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 #sidebar ul {
 	margin-bottom: 20px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #333;
 }
 
 #sidebar li {
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 #sidebar a {
-	font-size: 1.2em;
+	font-size: 1em;
 	font-weight: 300;
 	line-height: 1.33333333333333em; /* 24px / 18px */
 }
 
 /* Comments--------------------------------------------- */
 
-#post ol.commentlist {
+#comments, .comment-body, #respond {	width: 56%;}#comments {	float: left;	color: #000;	margin: 0 40px;}#post ol.commentlist {
 	float: left;
 	font-family: "proxima-nova", sans-serif;
 }
@@ -280,15 +274,12 @@ ul#excerpts {
 }
 
 .comment-body {
-	float: left;
-	width: 100%;
+	float: left;	margin: 0 40px;
 	padding: 20px 0 20px 0;
-	border-top: 1px solid #000;
 }
 
 .comment-author.vcard, .comment-meta.commentmetadata, #post ol.commentlist p, .reply {
-	margin-left: 40px;
-	margin-right: 40px;	
+
 }
 
 .comment-meta.commentmetadata {
@@ -300,10 +291,9 @@ ul#excerpts {
 
 #respond {
 	float: left;
-	margin-top: 20px;
+	margin: 0 40px 20px 40px;
 	padding-top: 20px;
-	width: 100%;
-}
+}#respond h3 {	color: #000;}
 
 #commentform #author, #email, #url {
 	width: 40%;
@@ -331,8 +321,8 @@ ul#excerpts {
 
 #footer {
 	clear: both;
-	height: 410px;
-	background: #ffffff url('img/body-background.jpg') repeat;
+	height: 300px;
+/*	background: #ffffff url('img/body-background.jpg') repeat;*/
 }
 
 #footer-wrapper {
@@ -350,16 +340,16 @@ ul#excerpts {
 	width: 184px;
 	height: 184px;
 	background: url('img/footer-hb-seal.png') no-repeat;
-	margin: 112px 60px 0 40px;
+	margin: 85px 40px 0 40px;
 }
 
 #about-us {
-	float: right;
-	width: 64%;
+	float: left;
+	width: 50%;
 	margin: 72px 40px 0 0;
 }
 	
-/* Media Queries--------------------------------------------- */@media all and (max-width: 935px) and (min-width: 768px) {	/*	#header-images { padding: 0 5%; }*/	#image-1 { margin-left: 0.5em; margin-top: 1.3em; }	#image-2 { margin-left: -5em; }	#image-3 { margin-left: -5em; margin-top: 1em; }	#image-4 { margin-left: -5em;margin-top: 3em; }	
+/* Media Queries--------------------------------------------- */@media all and (max-width: 935px) and (min-width: 770px) {		#header-images {		width: 670px;	}		#image-1 { margin-left: 0.5em; margin-top: 1.3em; }	#image-2 { margin-left: -5em; }	#image-3 { margin-left: -5em; margin-top: 1em; }	#image-4 { margin-left: -5em;margin-top: 3em; }	
 	#excerpts li {
 		width: 48.2%;
-	}	}
+	}	}@media all and (max-width: 770px) {	#post {		float: left;		width: 100%;		margin: 50px 0 30px 0;	}		#sidebar {		float: left;		width: 100%;/*		margin: 10px 40px;*/		margin: 0;	}		#comments, .comment-body, #respond {		width: 100%;	}}
