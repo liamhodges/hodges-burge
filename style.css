@@ -161,9 +161,9 @@ time {
 }
 	
 #container-main {
-	margin: 0 auto;
+	margin: 0 auto 50px auto;
 	max-width: 940px;
-	padding: 0 10px;
+/*	padding: 0 10px;*/
 }
 
 #main {
@@ -193,27 +193,23 @@ ul#excerpts {
 /* Blog post--------------------------------------------- */
 
 #post {
-	float: left;
-	width: 65%;
-	margin: 50px 0 30px 0;
+	width: 80%;
+	margin: 50px auto 30px auto;
 }
 
 #post img {
-	border: 10px solid #fff;
+	width: 100%;	border: 10px solid #fff;
 	-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, .15);
-	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, .15);
+	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, .15);	margin: 0 auto;
 }
 
 #post h2 {
 	font-size: 2.5em; /* 40px / 16px */
-	margin-left: 40px;
-	margin-right: 40px;
-	margin-bottom: 12px;
+	margin: 0 40px 12px 40px;
 }
 
 #post h3 {
-	margin-left: 40px;
-	margin-right: 40px;
+	margin: 0 40px;
 	color: #000;
 }
 
@@ -224,23 +220,21 @@ ul#excerpts {
 /* Sidebar--------------------------------------------- */
 
 #sidebar {
-	float: right;
-	width: 30%;
-	margin: 175px 40px 30px 0;	padding: 20px;
-	font-family: "proxima-nova", sans-serif;	background-color: #fff;	-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, .15);	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, .15);
+	width: 71%;
+	margin: 0 auto 40px auto;	padding: 20px 0;
+	font-family: "proxima-nova", sans-serif;	border-top: 1px solid #333;	border-bottom: 1px solid #333;	text-align: center;
 }
 
 #sidebar h2 {
-	margin-bottom: 20px;
+	font-size: 1.7em;	margin-bottom: 20px;
 }
 
 #sidebar ul {
-	margin-bottom: 20px;
-	padding-bottom: 10px;
+	margin-bottom: 25px;
 }
 
 #sidebar li {
-	margin-bottom: 5px;
+	margin-bottom: 9px;
 }
 
 #sidebar a {
@@ -251,13 +245,11 @@ ul#excerpts {
 
 /* Comments--------------------------------------------- */
 
-#comments, .comment-body, #respond {	width: 56%;}#comments {	float: left;	color: #000;	margin: 0 40px;}#post ol.commentlist {
-	float: left;
+#comments, .comment-body, #respond {	width: 71%;	margin: 0 auto;}#comments {	color: #000;	margin: 0 auto;}#post ol.commentlist {
 	font-family: "proxima-nova", sans-serif;
 }
 
 #post ol.commentlist img {
-	float: left;
 	display: inline;
 	margin: 0 20px 20px 0;
 	border: none;
@@ -274,7 +266,6 @@ ul#excerpts {
 }
 
 .comment-body {
-	float: left;	margin: 0 40px;
 	padding: 20px 0 20px 0;
 }
 
@@ -290,8 +281,6 @@ ul#excerpts {
 /* Comment form--------------------------------------------- */
 
 #respond {
-	float: left;
-	margin: 0 40px 20px 40px;
 	padding-top: 20px;
 }#respond h3 {	color: #000;}
 
@@ -321,11 +310,10 @@ ul#excerpts {
 
 #footer {
 	clear: both;
-	height: 300px;
-/*	background: #ffffff url('img/body-background.jpg') repeat;*/
+	height: 80px;
 }
 
-#footer-wrapper {
+/*#footer-wrapper {
 	margin: 0 auto;
 	max-width: 940px;
 	padding: 0 10px;
@@ -347,9 +335,9 @@ ul#excerpts {
 	float: left;
 	width: 50%;
 	margin: 72px 40px 0 0;
-}
+}*/
 	
-/* Media Queries--------------------------------------------- */@media all and (max-width: 935px) and (min-width: 770px) {		#header-images {		width: 670px;	}		#image-1 { margin-left: 0.5em; margin-top: 1.3em; }	#image-2 { margin-left: -5em; }	#image-3 { margin-left: -5em; margin-top: 1em; }	#image-4 { margin-left: -5em;margin-top: 3em; }	
+/* Media Queries--------------------------------------------- */@media all and (max-width: 935px) {		#header-images {		width: 670px;	}		#image-1 { margin-left: 0.5em; margin-top: 1.3em; }	#image-2 { margin-left: -5em; }	#image-3 { margin-left: -5em; margin-top: 1em; }	#image-4 { margin-left: -5em;margin-top: 3em; }	
 	#excerpts li {
 		width: 48.2%;
-	}	}@media all and (max-width: 770px) {	#post {		float: left;		width: 100%;		margin: 50px 0 30px 0;	}		#sidebar {		float: left;		width: 100%;/*		margin: 10px 40px;*/		margin: 0;	}		#comments, .comment-body, #respond {		width: 100%;	}}
+	}			#post {			width: 100%;	}			#sidebar {			width: 100%;/*			margin: 0;*/	}			#comments, .comment-body, #respond {			width: 100%;	}	}@media all and (max-width: 480px) {	#post p {		margin: 20px 20px;	}		#post h2 {		margin: 0 20px 12px 20px;	}		#post h3 {		margin: 0 20px;	}}
