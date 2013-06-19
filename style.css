@@ -63,13 +63,13 @@ p {
 
 a {
 	text-decoration: none;
-	color: #d42606;
+	color: #AF1A00;
 	border-bottom: none;
 }
 
 a:hover {
 	color: #004EAF;
-	border-bottom: 1px dotted #d42606;
+	border-bottom: 1px dotted #AF1A00;
 }
 
 time {
@@ -160,14 +160,14 @@ time {
 }
 	
 #container-main {
-	margin: 0 auto 50px auto;
+	margin: 0 auto 40px auto;
 	max-width: 940px;
 /*	padding: 0 10px;*/
 }
 
 #main {
 	float: left;
-	margin: 0 0 90px 0;
+	/*margin: 0 0 20px 0;*/
 }
 
 ul#excerpts {
@@ -214,14 +214,13 @@ ul#excerpts {
 
 #post p {
 	margin: 20px 40px;
-}
-
+}#post p img a:hover {	border-bottom: none;}
 /* Sidebar--------------------------------------------- */
 
 #sidebar {
 	width: 71%;
-	margin: 0 auto 40px auto;	padding: 20px 0;
-	font-family: "proxima-nova", sans-serif;	text-align: center;
+	margin: 0 auto 30px auto;	padding: 20px;
+	font-family: "proxima-nova", sans-serif;	background-color: #fff;	border-top: 1px solid #CBCBDF;	border-bottom: 1px solid #CBCBDF;
 }
 
 #sidebar h2 {
@@ -242,40 +241,15 @@ ul#excerpts {
 	line-height: 1.33333333333333em; /* 24px / 18px */
 }
 
-/* Comments--------------------------------------------- */
-
-#comments, .comment-body, #respond {	width: 71%;	margin: 0 auto;}#comments {	color: #000;	margin: 0 auto;	padding: 0 20px;}#post ol.commentlist {
-	font-family: "proxima-nova", sans-serif;
-}
-
-#post ol.commentlist img {
-	display: inline;
-	margin: 0 20px 20px 0;
-	border: none;
-	background-color: none;
-}
-
-#post ol.commentlist img.avatar {
-	display: none;
-	visibility: hidden;
-}
-
-#post ol.commentlist p img {
-	margin: 0 0 0 0;
-}
-
+/* Comments--------------------------------------------- */ol.commentlist, ol.commentlist p {	font-size: 1.1em;	font-family: "proxima-nova", sans-serif;}#comments, .comment-body, #respond {	width: 71%;	margin: 0 auto;}#comments {	color: #000;	margin: 0 auto;	padding: 0 20px;}
+h3#comments {	padding: 20px;	background-color: #fff;	border-top: 1px solid #CCCCE1;}
 .comment-body {
-	padding: 20px;
-}
-
-.comment-author.vcard, .comment-meta.commentmetadata, #post ol.commentlist p, .reply {
-
-}
-
+	padding: 20px;	background-color: white;
+}.comment-author-admin .comment-body {	background-color: #DAEAFF;}
 .comment-meta.commentmetadata {
 	margin-top: 10px;
 	margin-bottom: 10px;	
-}
+}ol.commentlist .comment.even .comment-body {	background-color: #FFF99C;}
 
 /* Comment form--------------------------------------------- */
 
@@ -301,7 +275,6 @@ ul#excerpts {
 	width: 170px;
 	background-color: #d42606;
 	border: none;
-	font-family: "proxima-nova", sans-serif;
 	font-size: 95%;
 }
 
