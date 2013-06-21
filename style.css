@@ -1,3 +1,6 @@
+/* @override 
+	http://localhost:8888/wordpress/wp-content/themes/hodges-burge/style.css */
+
 /*
 Theme Name: Hodges-Burge
 Theme URI: http://hodges-burge.com/
@@ -142,6 +145,7 @@ time {
 	width: 100%;
 	margin-top: -80px;
 	margin-bottom: 50px;
+	padding: 0 20px;
 }
 
 #banner-text h2 {
@@ -309,7 +313,70 @@ ul#excerpts {
 	margin: 72px 40px 0 0;
 }*/
 	
-/* Media Queries--------------------------------------------- */@media all and (max-width: 750px) {		p {		font-size: 1.125em; /* 18px / 16px */		line-height: 1.4em; /* 24px / 18px */	}	/*	#header-alt {/*		height: 230px;*!/		padding: 0 10px;	}*/		#header {		height: 330px;	}		#logo-banner {		background: url('img/logo-banner-mobile.png') bottom no-repeat;		background-size: 100%;		height: 153px;		max-width: 417px;		margin: 20px auto;	}		#header-images {		width: 670px;	}		#image-1 { margin-left: 0.5em; margin-top: 1.3em; }	#image-2 { margin-left: -5em; }	#image-3 { margin-left: -5em; margin-top: 1em; }	#image-4 { margin-left: -5em;margin-top: 3em; }	
+/* Media Queries--------------------------------------------- */
+
+@media all and (max-width: 870px) {
+
+	#header-images {
+		width: 750px;
+	}
+	
+	#image-1 { margin-left: 0.5em; margin-top: 1.3em; }
+	#image-2 { margin-left: -4em; }
+	#image-3 { margin-left: -3em; margin-top: 1em; }
+	#image-4 { margin-left: -3em;margin-top: 3em; }
+
+}
+
+@media all and (max-width: 846px) {
+
 	#excerpts li {
 		width: 48.2%;
-	}			#post {		width: 100%;	}				#sidebar {			width: 100%;/*			margin: 0;*/	}			#comments, .comment-body, #respond {			width: 100%;	}	}@media all and (max-width: 480px) {		#post {		margin: 30px auto 30px auto;	}		#post p {		margin: 20px 20px;	}		#post h2 {		margin: 0 20px 12px 20px;	}		#post h3 {		margin: 0 20px;	}}@media all and (max-width: 320px) {	#logo-banner {		background: url('img/logo-banner-mobile.png') bottom no-repeat;		background-size: 100%;		height: 110px;		max-width: 417px;	}		#post {		margin: 20px auto 30px auto;	}}
+	}	
+	
+	#excerpts li:nth-child(3n+3) {
+		margin: 0 20px 20px 0;
+	}
+	
+	#excerpts li:nth-child(2n+2) {
+		margin: 0 0 20px 0;
+	}
+
+}
+
+@media all and (max-width: 768px) {
+
+	#header-images {
+		width: 650px;
+	}
+	
+	#image-1 { margin-left: 0.5em; margin-top: 1.3em; }
+	#image-2 { margin-left: -6em; }
+	#image-3 { margin-left: -5em; margin-top: 1em; }
+	#image-4 { margin-left: -6em;margin-top: 3em; }
+	
+}
+
+@media all and (max-width: 750px) {		p {		font-size: 1.125em; /* 18px / 16px */		line-height: 1.4em; /* 24px / 18px */	}		#header {		height: 310px;	}		#logo-banner {		background: url('img/logo-banner-mobile.png') bottom no-repeat;		background-size: 100%;		height: 153px;		max-width: 417px;		margin: 20px auto 0 auto;	}		#post {		width: 100%;	}				#sidebar {			width: 100%;/*			margin: 0;*/	}			#comments, .comment-body, #respond {			width: 100%;	}	}
+
+@media all and (max-width: 680px) {
+
+	#header-images {
+		width: 550px;
+	}
+	
+	#image-1 { margin-left: 0.5em; margin-top: 1.3em; }
+	#image-2 { margin-left: -7em; }
+	#image-3 { margin-left: -8em; margin-top: 1em; }
+	#image-4 { margin-left: -8em;margin-top: 3em; }
+	
+	#excerpts li {
+		width: 100%;
+	}	
+	
+	#excerpts li:nth-child(2n+2) {
+		margin: 0 20px 20px 0;
+	}	
+
+}
+@media all and (max-width: 480px) {		#post {		margin: 30px auto 30px auto;	}		#post p {		margin: 20px 20px;	}		#post h2 {		margin: 0 20px 12px 20px;	}		#post h3 {		margin: 0 20px;	}}@media all and (max-width: 320px) {	#logo-banner {		background: url('img/logo-banner-mobile.png') bottom no-repeat;		background-size: 100%;		height: 110px;		max-width: 417px;	}		#post {		margin: 20px auto 30px auto;	}}
